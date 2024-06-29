@@ -14,3 +14,8 @@ Error handling is implemented to manage potential issues such as missing data an
 
 # Logging
 Logging is integrated throughout the application to capture important events, errors, and informational messages. The logging.basicConfig function is utilized to configure logging settings such as log level, format, and output destinations (app.log file and console).
+
+# Unit Testing
+Unit tests are implemented using Python's unittest framework to ensure the correctness of functions:
+- Data Integrity: Tests verify that the fetched data includes expected fields (date and rates).
+- Functionality: Tests validate the behavior of functions like get_past_exchange_data, find_best_and_worst_rates, and calculate_average_rate under various scenarios, including normal operation and error conditions.
