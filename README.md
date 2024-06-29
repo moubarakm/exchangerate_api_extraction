@@ -30,11 +30,11 @@ Logging is integrated within functions to ensure clear visibility into the execu
 
 # Best Standards Followed
 ## Code Readability
-## Variable Naming: 
+### Variable Naming: 
 - Descriptive variable names (base_currency, target_currency, days) enhance code readability and maintainability.
-## Function Documentation: 
+### Function Documentation: 
 - Functions are documented using docstrings and comments to provide clear descriptions of their purpose and parameters.
-## Consistent Formatting: 
+### Consistent Formatting: 
 - Code adheres to consistent formatting for improved readability and maintainability.
 ## Error Handling
 - Error Handling: Code has error handling ensures handling of exceptions and providing informative error messages.
